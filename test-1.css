@@ -1,0 +1,588 @@
+
+*{
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    
+    width: 100vw;
+}
+
+header{
+    
+    height: 80px;
+    width: 100vw;
+    
+    
+}
+.navbar{
+    
+    justify-content: space-between;
+    display: flex;
+    width: 100vw;
+}
+
+.navbar .logo img{
+    
+    height: 80px;
+    position: absolute;
+}   
+
+.menu ul{
+    
+    display: flex;
+    margin-top: 30px;
+    
+}
+.menu ul li{
+    list-style: none;
+    
+}
+
+.menu ul li a{
+    
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+
+.menu ul li a:hover{
+    
+    color: white;
+    background-color: red;
+    
+}   
+  
+/*--------------------Grid Starts--------*/
+
+.Para-img1
+{
+    
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.imggrid{
+        
+        
+        
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+        margin-top: 50px;
+        position: absolute;
+        width: 100vw;
+        margin-left: 150px;
+        justify-content: center;
+        
+    
+    }
+    
+    .imggrid > img
+    {
+        
+        width: 280px;
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+        justify-items: center;
+        align-items: center;
+        
+    }
+    .imggrid > img:hover{
+        
+    border: 2px solid orange;    
+    
+        
+    }
+    
+.Para-img1
+{
+    
+    text-align: center;
+    font-size: 30px;
+}
+    
+.Para-img2
+{
+    
+    text-align: center;
+    font-size: 30px;
+    top:54%;
+    left: 42%;
+    position: absolute;
+}
+    
+    .imggrid1{
+        
+        
+        
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+        margin-top: 50px;
+        position: absolute;
+        width: 100vw;
+        margin-left: 150px;
+        justify-content: center;
+        
+        top:65%;
+        
+    
+    }
+    
+    .imggrid1 > img
+    {
+        
+        width: 280px;
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+        justify-items: center;
+        align-items: center;
+        
+    }
+    .imggrid1 > img:hover{
+        
+    border: 2px solid orange; 
+    
+    }
+  
+    
+     /*--------------------Grid_ends--------*/  
+     
+     
+    
+    /*--------------------Video Grid_starts--------*/
+   
+    .para-video{
+        
+        text-align: center;
+        top:10%;
+        left: 45%;
+        position: absolute;
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+    
+    
+    
+    
+    .videogrid{
+        
+        
+        
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fill,minmax(450px,1fr));
+        
+        position: absolute;
+        width: 500vw;
+        top:20%;
+        left: 10%;
+        
+    
+    }
+    
+    .videogrid video
+    {
+        
+        width: 400px;
+        
+        object-fit: cover;
+        object-position: center;
+        justify-items: center;
+        align-items: center;
+        padding: 20px;
+
+    
+    } 
+    .videogrid video:hover{
+        
+        
+        border: 2px solid orange;
+    } 
+    .videogrid2{
+        
+        
+        
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fill,minmax(450px,1fr));
+        
+        position: absolute;
+        width: 500vw;
+        top:60%;
+        left: 10%;
+        
+    
+    }
+    
+    .videogrid2 video
+    {
+        
+        width: 400px;
+        
+        object-fit: cover;
+        object-position: center;
+        justify-items: center;
+        align-items: center;
+        padding: 20px;
+
+    
+    }
+    
+    .para-video2{
+        
+        
+        font-size: 30px;
+        top:50%;
+        left: 43%;
+        position: absolute;
+    }
+    
+    /*--------------------Video Grid_ends--------*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+  
+  
+  
+     /*--------------------Login-Starts--------*/  
+ .form-container nav  img{
+      
+      align-content: center;
+      top:50%;
+      left: 50%;
+      margin-bottom: 20px;
+  }
+  
+  h1{
+      
+      text-align: center;
+  }
+  
+  .background1{
+      
+      background-image: linear-gradient(to right,white,#db0b16);
+      
+      
+  }
+  
+  .background1 p{
+      
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+      color: white;
+      font-family: sans-serif;
+      font-size: 20px;
+  }
+  
+  
+  p{
+      
+      text-align: center;
+      font-family: sans-serif;
+      font-size: 20px;
+      margin-top: 20px;
+      padding: 30px;
+      
+  }
+  
+  
+     .form-container{
+         
+         top: 50%;
+         left: 50%;
+         position: absolute;
+         padding: 70px;
+         border-radius: 5px;
+         border: 2px solid silver;
+         width: 450px;
+         transform: translate(-50%, -50%);
+  
+
+     }
+    form .form-control{
+       position: relative;
+        margin-bottom: 16px;
+        height: 50px;
+         
+     }
+  
+     .form-control input{
+         height: 100%;
+         width: 100%;
+          
+         color: #fff;
+         border: none;
+         border-radius: 5px;
+         
+     }  
+  .form-control input:is(:focus, :valid) {
+    background: white;
+    padding: 16px 20px 0;
+  }
+  
+  .form-control label{
+      position: absolute;
+      transform: translateY(-50%);
+      left: 20px;
+    top: 50%;
+    color: #8c8c8c;
+       transition: all 0.1s ease;
+
+
+      
+  }
+  
+  .form-control input:is(:focus, :valid)~label {
+    font-size: 0.75rem;
+    transform: translateY(-130%);
+}
+
+  
+form button{
+   width: 100%;
+    padding: 16px 0;
+    font-size: 1rem;
+    background: #e50914;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin: 25px 0 10px;
+    cursor: pointer;
+    transition: 0.1s ease;
+
+    
+}
+form button:hover {
+    background: #c40812;
+}
+  
+a{
+    
+    text-decoration: none;
+    color: black;
+    float: right;
+    padding: 10px 20px;
+    position: relative;
+    
+}  
+  
+
+.menu12 {
+    display: flex;
+    
+    
+}
+
+.menu12 a{
+    
+   border-radius: 5px;
+    border: none;
+    background: black;
+    color: white;
+    justify-content: space-between;
+    margin: 10px;
+    top:50%;
+    left:60%
+    
+    
+    
+    
+    
+}
+.menu12 a:hover{
+    
+    
+    color: black;
+    background:red;
+    
+    
+    
+}
+  
+   /*--------------------Login Ends--------*/  
+   
+   
+   
+    /*--------------------address starts--------*/ 
+    
+    
+    
+    
+    .contact{
+        
+        border: 0px solid silver;
+        border-radius: 5px;
+        top:12.99%;
+        left: 32%;
+        position: absolute;
+        
+        
+        
+    }
+    
+    
+    .contact-inner{
+        
+        padding: 10px 30px;
+    }
+    .address-bar > a > img{
+        
+        width: 50px;
+        padding: 10px;
+        
+        
+    }
+    
+    .address-bar a{
+        
+        text-decoration: none;
+    }
+    
+    .address-bar a:hover{
+        
+        border: 2px solid orange;
+        
+    }
+    
+    .address-bar{
+        top:80%;
+        left: 80%;
+        position: absolute;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     /*--------------------address Ends--------*/  
+  
+@media only screen and (max-width:900px){
+    
+    
+    header{
+        
+        height: 350px;
+        width: 100vw;
+        display: flex;
+        justify-content: space-evenly;
+      
+        
+        
+    }
+    .navbar{
+        width: 100%;
+       
+        
+     
+        
+    }
+    
+    .navbar .logo img{
+    align-items: center;
+          justify-content: space-evenly;
+          align-content: center;
+    }
+    
+    
+    
+    
+    .menu ul{
+        
+          display: block;
+        
+        
+         
+          
+       
+    }
+    
+    
+    .menu ul li{
+        
+        justify-content: center;
+         padding: 20px;
+    }
+    
+    .menu ul li a{
+        
+      
+        
+    }
+    
+    .imggrid{
+        
+        
+        width: 100vw;
+        height: 100vw;
+        
+        margin-left: 20px;
+        
+        
+    }   
+    
+    p{
+        
+        
+       text-align: center;
+    }
+    
+    
+    
+    
+    .form-container{
+        width: 50vw;
+    }
+    
+    .menu12{
+        
+        
+        transform: translate(-50%,-30%);
+        padding:  10px;
+        
+   
+    }
+    
+    .bdr{
+        
+        margin-bottom: 2px solid silverblack;
+    }
+    
+}
